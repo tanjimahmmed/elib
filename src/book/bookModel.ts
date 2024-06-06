@@ -14,6 +14,10 @@ const bookSchema = new mongoose.Schema<Book>({
         type: String,
         required: true,
     },
+    file: {
+        type: String,
+        required: true
+    },
     genre: {
         type: String,
         required: true
